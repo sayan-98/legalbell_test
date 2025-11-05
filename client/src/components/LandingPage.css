@@ -1,0 +1,89 @@
+/* Background setup */
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f8fa;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Card box */
+.landing-card {
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 420px;
+  transition: transform 0.3s ease;
+}
+
+.landing-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.landing-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #002b5c;
+  margin-bottom: 15px;
+}
+
+/* Subtitle */
+.landing-subtitle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Buttons container */
+.landing-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Buttons */
+.landing-btn {
+  background-color: #002b5c;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.landing-btn:hover {
+  background-color: #004080;
+  transform: scale(1.05);
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+  .landing-card {
+    width: 90%;
+    padding: 40px 25px;
+  }
+
+  .landing-title {
+    font-size: 24px;
+  }
+
+  .landing-subtitle {
+    font-size: 16px;
+  }
+
+  .landing-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .landing-btn {
+    width: 100%;
+  }
+}

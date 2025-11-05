@@ -1,0 +1,76 @@
+/* Main container */
+.lawyer-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f8fa;
+}
+
+/* Registration Card */
+.lawyer-register-card {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Title */
+.lawyer-register-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Form */
+.lawyer-register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Input fields */
+.lawyer-register-form input,
+.lawyer-register-form select {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  transition: border-color 0.3s;
+}
+
+.lawyer-register-form input:focus,
+.lawyer-register-form select:focus {
+  border-color: #002b5c;
+}
+
+/* Submit button */
+.lawyer-register-form button {
+  margin-top: 10px;
+  background-color: #002b5c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  transition: background-color 0.3s;
+}
+
+.lawyer-register-form button:hover {
+  background-color: #004080;
+}
+
+/* File input styling */
+.lawyer-register-form input[type="file"] {
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+}

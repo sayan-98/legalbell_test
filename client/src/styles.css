@@ -1,0 +1,65 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a, .navbar button {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.landing {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.landing-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-container input, .form-container button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+.form-container button {
+  background-color: #003366;
+  color: white;
+  border: none;
+}
+
+.page {
+  text-align: center;
+  padding: 60px;
+}

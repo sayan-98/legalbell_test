@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #002b5b;
+  color: white;
+  padding: 10px 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-photo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.back-btn {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-icon {
+  width: 16px;
+  margin-right: 5px;
+}
